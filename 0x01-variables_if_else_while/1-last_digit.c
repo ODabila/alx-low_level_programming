@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: 0 (success)
  */
+
 int main(void)
 {
 	int n;
@@ -21,3 +23,4 @@ int main(void)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n",
 				n, last_digit);
 	return (0);
+}
