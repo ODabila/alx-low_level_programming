@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main100-set_string.c.h"
 /**
 * set_string -Function that sets the value of a pointer to a char.
 * @s : pointer to a pointer that points to an array.
@@ -8,3 +8,4 @@
 void set_string(char **s, char *to)
 {
 	*s = to;
+}
