@@ -32,3 +32,15 @@ char *_strstr(char *haystack, char *needle)
 	return (0);
 }
 /**
+* _strlen - function that that returns the length of a string.
+* @s : pointer to a string.
+* Return: string lenght
+*/
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
+}
